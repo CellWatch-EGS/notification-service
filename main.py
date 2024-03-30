@@ -1,7 +1,5 @@
-import uvicorn
-import importlib
+from fastapi import FastAPI
+from api.routes import api_router
 
-app = importlib.import_module("notification-api.app").app
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8080)
+app = FastAPI()
+app.include_router(api_router, prefix="/api/v1")

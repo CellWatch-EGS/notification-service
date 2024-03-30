@@ -1,6 +1,6 @@
 import requests
 
-api_url = "http://localhost:8080/v1/notifications"
+api_url = "http://127.0.0.1:8000/api/v1/notifications"
 
 notification_data = {
     "username": "john_doe",
