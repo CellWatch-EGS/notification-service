@@ -1,1 +1,1 @@
-from .notification import router
+from .notifications import router

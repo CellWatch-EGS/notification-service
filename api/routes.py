@@ -2,4 +2,4 @@ from fastapi import APIRouter
 from api import endpoints
 
 api_router = APIRouter()
-api_router.include_router(endpoints.notification.router)
+api_router.include_router(endpoints.notifications.router)
