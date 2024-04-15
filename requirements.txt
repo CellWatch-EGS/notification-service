@@ -5,3 +5,4 @@ Requests==2.31.0
 twilio==9.0.2
 typing_extensions==4.11.0
 email_validator==2.1.1
+uvicorn[standard]==0.17.*
